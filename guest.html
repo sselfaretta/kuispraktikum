@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT GUESTBOOK</title>
+</head>
+<body>
+    <form method="POST" action="save.php">
+        <table width="300" align="center" cellpadding="2" cellspacing="2">
+            <tr>
+                <td colspan="2" align="center">
+                    <h2>INPUT GUESTBOOK</h2>
+                </td>
+            </tr>
+            <tr>
+                <td width="130">tanggal</td>
+                <td><input type="date" name="posted"></td>
+            </tr>
+            <tr>
+                <td width="130">nama</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td width="130">email</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td width="130">alamat</td>
+                <td><input type="text" name="address"></td>
+            </tr>
+            
+
+            <tr>
+                <td width="130">kota</td>
+                <td><input type="text" name="city"></td>
+            </tr>
+            <tr>
+                <td width="130">pesan</td>
+                <td><input type="text" name="message"></td>
+            </tr>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" name="btnSubmit" value="Submit">
+                <input type="reset" name="reset" value="Reset">
+            </td>
+        </tr>
+        </table>
+    </form>    
+</body>
+</html>
