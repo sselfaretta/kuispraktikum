@@ -12,7 +12,6 @@ if (!$conn) {
 } 
 
 //memindahkan nilai data form ke variabel sederhana agar mudah ditulis
-$vid=$_REQUEST['id'];
 $vposted=$_POST['posted'];
 $vname=$_POST['name'];
 $vemail=$_POST['email'];
