@@ -25,7 +25,7 @@
  </head>  
  <body>  
      <!--menampilkan teks selamat datang,(isi sesuai username yang dimasukkan saat login)! ;)-->
-     <center><h1>Selamat Datang, <?php echo $_SESSION['USER_NAME'] ?>! ;) <br><br> Pada <?php date_default_timezone_set('Asia/Jakarta'); echo date('l, d-m-Y '); ?> </h1></center>
+     <center><h1>Selamat Datang, <?php echo $_SESSION['USER_NAME'] ?>! ;) <br><br> Pada Hari <?php date_default_timezone_set('Asia/Jakarta'); echo date('l, d-m-Y '); ?> </h1></center>
      <br><br>
      <a href="guest.html">Input GuestBook</a>
      <br><br>
